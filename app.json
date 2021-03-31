@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "Walmart Sense",
+    "description": "Find the crowd density in all walmart stores and also get predicted crowd density for the next 6 days",
+    "slug": "WalmartSense",
+    "githubUrl": "https://github.com/lightningsandy/Walmart-Sense",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "backgroundColor": "#0F103F",
+    "primaryColor": "#0F103F",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.lightningsandy.WalmartSense"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
